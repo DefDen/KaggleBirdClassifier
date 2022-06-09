@@ -1,36 +1,14 @@
-## Welcome to GitHub Pages
+## I Was Busy Thinkin' 'Bout Birds
 
-You can use the [editor on GitHub](https://github.com/DefDen/KaggleBirdClassifier/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+### Goals
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+My goal was to get the highest accuracy I could in the [Kaggle bird classifying competition](https://www.kaggle.com/competitions/birds22sp/). To achieve this I tested multiple combinations of neural networks with different optimization schemes and hyperparameters.
 
-### Markdown
+### Methodology
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+I started with the example code given by in class [here](https://colab.research.google.com/drive/1kHo8VT-onDxbtS3FM77VImG35h_K_Lav?usp=sharing), which served as a baseline for future experiments. The defult neural network is based off resnet18 and runs the SGD optimizer over 5 epochs, which yeilds a testing accuracy of 48%. 
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/DefDen/KaggleBirdClassifier/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Following 
 
 ### Support or Contact
 
