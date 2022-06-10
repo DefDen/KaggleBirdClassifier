@@ -34,4 +34,4 @@ An issue that kept popping up while running the cnn in Kaggle was that the gpu k
 
 ### Results
 
-
+After learning these larger lessons and a lot more fine tinkering with the learning rate and number of epochs trained, I landed on a final accuracy of 73.5%. I used resnet50 with a learning rate of 0.01 for 20 epochs, followed by continuing training for another 10 epochs at a learning rate of 0.001. I found in testing that running at a higher learning rate for the full 30 epochs caused overfitting, but running at a lower learning rate for more epochs often took too long or didn't achieve the accuracy I was looking for.
