@@ -1,5 +1,7 @@
 ## I Was Busy Thinkin' 'Bout Birds
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EJ0AqL_HTA4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### Goals
 
 My goal was to get the highest accuracy I could in the [Kaggle bird classifying competition](https://www.kaggle.com/competitions/birds22sp/). To achieve this I tested multiple combinations of neural networks with different optimization schemes and hyperparameters.
